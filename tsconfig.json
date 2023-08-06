@@ -1,0 +1,175 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@Board/*": [
+        "src\\apps\\Board"
+      ],
+      "@Board/components/*": [
+        "src\\apps\\Board\\components\\services",
+        "src\\apps\\Board\\components\\redux",
+        "src\\apps\\Board\\components\\hooks",
+        "src\\apps\\Board\\components\\models",
+        "src\\apps\\Board\\components\\components"
+      ],
+      "@Board/hooks/*": [
+        "src\\apps\\Board\\hooks\\services",
+        "src\\apps\\Board\\hooks\\redux",
+        "src\\apps\\Board\\hooks\\hooks",
+        "src\\apps\\Board\\hooks\\models",
+        "src\\apps\\Board\\hooks\\components"
+      ],
+      "@Board/models/*": [
+        "src\\apps\\Board\\models\\services",
+        "src\\apps\\Board\\models\\redux",
+        "src\\apps\\Board\\models\\hooks",
+        "src\\apps\\Board\\models\\models",
+        "src\\apps\\Board\\models\\components"
+      ],
+      "@Board/redux/*": [
+        "src\\apps\\Board\\redux\\services",
+        "src\\apps\\Board\\redux\\redux",
+        "src\\apps\\Board\\redux\\hooks",
+        "src\\apps\\Board\\redux\\models",
+        "src\\apps\\Board\\redux\\components"
+      ],
+      "@Board/services/*": [
+        "src\\apps\\Board\\services\\services",
+        "src\\apps\\Board\\services\\redux",
+        "src\\apps\\Board\\services\\hooks",
+        "src\\apps\\Board\\services\\models",
+        "src\\apps\\Board\\services\\components"
+      ],
+      "@Pin/*": [
+        "src\\apps\\Pin"
+      ],
+      "@Pin/components/*": [
+        "src\\apps\\Pin\\components\\services",
+        "src\\apps\\Pin\\components\\redux",
+        "src\\apps\\Pin\\components\\hooks",
+        "src\\apps\\Pin\\components\\models",
+        "src\\apps\\Pin\\components\\components"
+      ],
+      "@Pin/hooks/*": [
+        "src\\apps\\Pin\\hooks\\services",
+        "src\\apps\\Pin\\hooks\\redux",
+        "src\\apps\\Pin\\hooks\\hooks",
+        "src\\apps\\Pin\\hooks\\models",
+        "src\\apps\\Pin\\hooks\\components"
+      ],
+      "@Pin/models/*": [
+        "src\\apps\\Pin\\models\\services",
+        "src\\apps\\Pin\\models\\redux",
+        "src\\apps\\Pin\\models\\hooks",
+        "src\\apps\\Pin\\models\\models",
+        "src\\apps\\Pin\\models\\components"
+      ],
+      "@Pin/redux/*": [
+        "src\\apps\\Pin\\redux\\services",
+        "src\\apps\\Pin\\redux\\redux",
+        "src\\apps\\Pin\\redux\\hooks",
+        "src\\apps\\Pin\\redux\\models",
+        "src\\apps\\Pin\\redux\\components"
+      ],
+      "@Pin/services/*": [
+        "src\\apps\\Pin\\services\\services",
+        "src\\apps\\Pin\\services\\redux",
+        "src\\apps\\Pin\\services\\hooks",
+        "src\\apps\\Pin\\services\\models",
+        "src\\apps\\Pin\\services\\components"
+      ],
+      "@UserAccount/*": [
+        "src\\apps\\UserAccount"
+      ],
+      "@UserAccount/components/*": [
+        "src\\apps\\UserAccount\\components\\services",
+        "src\\apps\\UserAccount\\components\\redux",
+        "src\\apps\\UserAccount\\components\\hooks",
+        "src\\apps\\UserAccount\\components\\models",
+        "src\\apps\\UserAccount\\components\\components"
+      ],
+      "@UserAccount/hooks/*": [
+        "src\\apps\\UserAccount\\hooks\\services",
+        "src\\apps\\UserAccount\\hooks\\redux",
+        "src\\apps\\UserAccount\\hooks\\hooks",
+        "src\\apps\\UserAccount\\hooks\\models",
+        "src\\apps\\UserAccount\\hooks\\components"
+      ],
+      "@UserAccount/models/*": [
+        "src\\apps\\UserAccount\\models\\services",
+        "src\\apps\\UserAccount\\models\\redux",
+        "src\\apps\\UserAccount\\models\\hooks",
+        "src\\apps\\UserAccount\\models\\models",
+        "src\\apps\\UserAccount\\models\\components"
+      ],
+      "@UserAccount/redux/*": [
+        "src\\apps\\UserAccount\\redux\\services",
+        "src\\apps\\UserAccount\\redux\\redux",
+        "src\\apps\\UserAccount\\redux\\hooks",
+        "src\\apps\\UserAccount\\redux\\models",
+        "src\\apps\\UserAccount\\redux\\components"
+      ],
+      "@UserAccount/services/*": [
+        "src\\apps\\UserAccount\\services\\services",
+        "src\\apps\\UserAccount\\services\\redux",
+        "src\\apps\\UserAccount\\services\\hooks",
+        "src\\apps\\UserAccount\\services\\models",
+        "src\\apps\\UserAccount\\services\\components"
+      ],
+      "@UserAccount/utilities/*": [
+        "src\\apps\\UserAccount\\utilities\\services",
+        "src\\apps\\UserAccount\\utilities\\redux",
+        "src\\apps\\UserAccount\\utilities\\hooks",
+        "src\\apps\\UserAccount\\utilities\\models",
+        "src\\apps\\UserAccount\\utilities\\components"
+      ],
+      "@ui/*": [
+        "src\\ui"
+      ],
+      "@ui/components/*": [
+        "src\\ui\\components"
+      ],
+      "@ui/hooks/*": [
+        "src\\ui\\hooks"
+      ],
+      "@ui/screens/*": [
+        "src\\ui\\screens"
+      ],
+      "@ui/context/*": [
+        "src\\ui\\context"
+      ],
+      "@redux/*": [
+        "src\\redux"
+      ],
+      "@utils/*": [
+        "src\\utils"
+      ]
+    },
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
